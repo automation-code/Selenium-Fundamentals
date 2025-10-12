@@ -1,0 +1,166 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+############################
+# OS FILES
+############################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+############################
+# JAVA BUILD FILES
+############################
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+############################
+# MAVEN
+############################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.settings/
+.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.properties
+
+############################
+# GRADLE
+############################
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+############################
+# LOGS & REPORTS
+############################
+logs/
+*.log
+output.log
+test-output/
+reports/
+allure-results/
+allure-report/
+surefire-reports/
+extent-report/
+emailable-report.html
+
+############################
+# SCREENSHOTS & TEST DATA
+############################
+screenshots/
+captures/
+test-data/output/
+*.png
+*.jpg
+*.jpeg
+
+############################
+# DRIVER BINARIES (Selenium)
+############################
+chromedriver*
+geckodriver*
+msedgedriver*
+IEDriverServer*
+drivers/
+bin/
+
+############################
+# IDE FILES
+############################
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+.history/
+.code-workspace
+
+############################
+# TESTING FRAMEWORKS (JUnit, TestNG, Cucumber)
+############################
+*.json
+cucumber-reports/
+cucumber.json
+testng-customsuite.xml
+rerun.txt
+
+############################
+# TEMP & CACHE FILES
+############################
+tmp/
+temp/
+cache/
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+############################
+# CONFIG / ENV FILES
+############################
+.env
+.env.local
+config/*.local.yml
+config/*.local.properties
+application.properties
+application.yml
+!config/default.properties
+!config/default.yml
+
+############################
+# NODE / FRONTEND (if used for reports)
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+package-lock.json
+
+############################
+# OS / TOOL-SPECIFIC FILES
+############################
+*.sublime-workspace
+*.sublime-project
+*.bak
+*.tmp
+*.swp
+
+############################
+# OTHERS
+############################
+.idea_modules/
+*.orig
+*.rej
+*.class
+*~
+*.old
+
