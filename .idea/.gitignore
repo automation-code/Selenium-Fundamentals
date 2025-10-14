@@ -82,9 +82,8 @@ drivers/
 bin/
 
 ############################
-# IDE FILES
+# IntelliJ IDEA IDE FILES
 ############################
-# IntelliJ IDEA
 *.iml
 *.iws
 out/
@@ -103,11 +102,9 @@ bin/
 ############################
 # TESTING FRAMEWORKS (JUnit, TestNG, Cucumber)
 ############################
-*.json
 cucumber-reports/
 cucumber.json
 testng-customsuite.xml
-rerun.txt
 
 ############################
 # TEMP & CACHE FILES
@@ -158,7 +155,6 @@ package-lock.json
 ############################
 *.orig
 *.rej
-*.class
 *~
 *.old
 
