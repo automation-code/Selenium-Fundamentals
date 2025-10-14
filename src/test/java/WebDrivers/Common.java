@@ -7,7 +7,7 @@ import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
 
-public class WebDrivers {
+public class Common {
 
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();

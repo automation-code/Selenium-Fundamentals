@@ -85,7 +85,6 @@ bin/
 # IDE FILES
 ############################
 # IntelliJ IDEA
-.idea/
 *.iml
 *.iws
 out/
@@ -157,7 +156,6 @@ package-lock.json
 ############################
 # OTHERS
 ############################
-.idea_modules/
 *.orig
 *.rej
 *.class
