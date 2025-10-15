@@ -1,7 +1,3 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-
 ############################
 # OS FILES
 ############################
@@ -27,25 +23,12 @@ desktop.ini
 # MAVEN
 ############################
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.settings/
-.mvn/wrapper/maven-wrapper.jar
-!/.mvn/wrapper/maven-wrapper.properties
 
 ############################
 # GRADLE
 ############################
 .gradle/
 build/
-!gradle/wrapper/gradle-wrapper.jar
-!gradle/wrapper/gradle-wrapper.properties
 
 ############################
 # LOGS & REPORTS
@@ -84,8 +67,6 @@ bin/
 ############################
 # IntelliJ IDEA IDE FILES
 ############################
-*.iml
-*.iws
 out/
 
 # Eclipse
@@ -103,8 +84,6 @@ bin/
 # TESTING FRAMEWORKS (JUnit, TestNG, Cucumber)
 ############################
 cucumber-reports/
-cucumber.json
-testng-customsuite.xml
 
 ############################
 # TEMP & CACHE FILES
@@ -117,44 +96,3 @@ cache/
 *.swp
 *.swo
 *.orig
-
-############################
-# CONFIG / ENV FILES
-############################
-.env
-.env.local
-config/*.local.yml
-config/*.local.properties
-application.properties
-application.yml
-!config/default.properties
-!config/default.yml
-
-############################
-# NODE / FRONTEND (if used for reports)
-############################
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-dist/
-build/
-package-lock.json
-
-############################
-# OS / TOOL-SPECIFIC FILES
-############################
-*.sublime-workspace
-*.sublime-project
-*.bak
-*.tmp
-*.swp
-
-############################
-# OTHERS
-############################
-*.orig
-*.rej
-*~
-*.old
-
