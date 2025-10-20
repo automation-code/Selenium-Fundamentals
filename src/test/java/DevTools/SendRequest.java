@@ -4,8 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.HasDevTools;
-import org.openqa.selenium.devtools.v140.network.Network;
-import org.openqa.selenium.devtools.v140.network.model.Request;
+import org.openqa.selenium.devtools.v141.network.Network;
+import org.openqa.selenium.devtools.v141.network.model.Request;
 
 import java.util.Optional;
 
@@ -23,6 +23,7 @@ public class SendRequest {
 
             // Enable Network
             devTools.send(Network.enable(
+                    Optional.empty(),
                     Optional.empty(),
                     Optional.empty(),
                     Optional.empty(),
@@ -66,6 +67,7 @@ public class SendRequest {
                 Optional.empty(),
                 Optional.empty(),
                 Optional.empty(),
+                Optional.empty(),
                 Optional.empty()));
 
         devTools.addListener(Network.requestWillBeSent(), requestEvent -> {
@@ -83,6 +85,7 @@ public class SendRequest {
         DevTools devTools = ((HasDevTools) driver).getDevTools();
         devTools.createSession();
         devTools.send(Network.enable(
+                Optional.empty(),
                 Optional.empty(),
                 Optional.empty(),
                 Optional.empty(),

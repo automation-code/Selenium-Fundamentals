@@ -3,10 +3,10 @@ package DevTools;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.HasDevTools;
-import org.openqa.selenium.devtools.v140.log.Log;
-import org.openqa.selenium.devtools.v140.network.Network;
-import org.openqa.selenium.devtools.v140.performance.Performance;
-import org.openqa.selenium.devtools.v140.performance.model.Metric;
+import org.openqa.selenium.devtools.v141.log.Log;
+import org.openqa.selenium.devtools.v141.network.Network;
+import org.openqa.selenium.devtools.v141.performance.Performance;
+import org.openqa.selenium.devtools.v141.performance.model.Metric;
 
 import java.util.*;
 
@@ -31,6 +31,7 @@ public class CaptureDataSummery {
 
     public void enableNetworkMonitoring() {
         devTools.send(Network.enable(
+                Optional.empty(),
                 Optional.empty(),
                 Optional.empty(),
                 Optional.empty(),
